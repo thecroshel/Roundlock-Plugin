@@ -40,6 +40,6 @@ namespace RoundlockPlugin
     public class Config : IConfig
     {
         public bool IsEnabled { get; set; } = true;
-        public bool Debug { get; set; } = false; // Implemented the missing Debug property
+        public bool Debug { get; set; } = false;
     }
 }
